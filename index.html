@@ -27,6 +27,46 @@
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Plumber",
+      "name": "Artiserv Debouchage Balma",
+      "description": "Debouchage de canalisations a Balma. Intervention urgente 24h/24 et 7j/7. Devis gratuit.",
+      "url": "https://debouchage-canalisation-balma.fr/",
+      "telephone": "09 80 80 55 05",
+      "email": "artiserv.debouchage@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Balma",
+        "postalCode": "31130",
+        "addressRegion": "Haute-Garonne",
+        "addressCountry": "FR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.6111,
+        "longitude": 1.4989
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      ],
+      "priceRange": "EUR 149+",
+      "currenciesAccepted": "EUR",
+      "paymentAccepted": "Cash, Credit Card, Check, Bank Transfer",
+      "areaServed": {
+        "@type": "City",
+        "name": "Balma"
+      }
+    }
+    </script>
+
 </head>
 <body>
     <!-- Top Bar -->
